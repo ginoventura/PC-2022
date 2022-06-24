@@ -1,0 +1,8 @@
+Como compilar y ejecutar el programa.
+
+Paso 1) gcc -c -pthread -Wall -pedantic MonitoresBuffer.c -o MonitoresBuffer.o
+Paso 2) gcc -pthread -Wall -pedantic TRABAJO-PC.c MonitoresBuffer.o -lrt
+Paso 3) ./a.out
+
+
+
